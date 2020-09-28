@@ -210,6 +210,54 @@ section {
   color: white;
 }
 
+.carousel {
+  min-height: 240px;
+  padding: 40px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.carousel p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #1a1a1a;
+}
+
+.carousel .list-inline {
+  margin-top: .5rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.rating .list-inline-item {
+  color: #ffb944;
+  font-size: 24px;
+}
+
+.testimonial-user {
+  max-width: 240px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.testimonial-user h6 {
+  margin-bottom: 0px;
+}
+
+.testimonial-user span {
+  font-size: 12px;
+}
+
+.testimonial-user img {
+  border-radius: 50%;
+  max-width: 50px;
+  text-align: center;
+}
+
 @media (max-width: 575.98px) {
   h1 {
     font-size: 2.4rem;
@@ -227,6 +275,9 @@ section {
   }
   section {
     padding: 3rem 0;
+  }
+  .carousel-item p {
+    font-size: 1.2rem;
   }
 }
 
