@@ -1,0 +1,31 @@
+#hero {
+   background-image: url("../images/hero.jpg");
+   background-size: cover;
+   color: $white;
+   min-height: 85vh;
+   padding-top: 4.5rem;
+}
+
+#hero p {
+   color: $white;
+}
+
+.content-center {
+   text-align: center;
+   margin: 0 auto 60px auto;
+   max-width: 800px;
+}
+
+.btn-explore-now {
+   display: inline-block;
+   padding: 0.8rem 1.8rem;
+   border-radius: 5px;
+   min-width: 160px;
+   background-color: $white;
+   margin-top: 1rem;
+}
+
+.btn-explore-now:hover {
+   border: 1px solid $white;
+   opacity: 0.5;
+}
