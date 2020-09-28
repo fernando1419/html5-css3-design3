@@ -62,7 +62,7 @@ a:hover {
   background-image: url("../images/hero.jpg");
   background-size: cover;
   color: white;
-  min-height: 85vh;
+  min-height: 34rem;
   padding-top: 4.5rem;
 }
 
@@ -88,5 +88,12 @@ a:hover {
 .btn-explore-now:hover {
   border: 1px solid white;
   opacity: 0.5;
+}
+
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 2.4rem;
+    line-height: normal;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
