@@ -1,0 +1,20 @@
+.member-container {
+   position: relative;
+   margin: 10px 0;
+}
+
+.member-details {
+   position: absolute;
+   color: $white;
+   bottom: 0px;
+   left: 20px;
+}
+
+.member-details span {
+   font-size: 1rem;
+}
+
+.member-details .social-icon {
+   padding: 5px 3px;
+   color: $white;
+}
