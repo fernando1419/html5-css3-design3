@@ -4,16 +4,58 @@
       font-size: 2.4rem;
       line-height: normal;
    }
+
+   .portfolio-details h2 {
+      font-size: 2rem;
+   }
+
+   .plans {
+      min-width: unset;
+      padding: 40px;
+   }
+
+   .plans h2 {
+      font-size: 50px;
+   }
+
+   section {
+      padding: 3rem 0;
+   }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+   .portfolio-details h2 {
+      font-size: 2rem;
+   }
+
+   .plans {
+      min-width: unset;
+      padding: 40px;
+   }
+
+   .plans h2 {
+      font-size: 50px;
+   }
+
+   .plans h4 {
+      font-size: 1.3rem;
+   }
+}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   .plans h2 {
+      font-size: 50px;
+   }
+
+   .plans h4 {
+      font-size: 1.3rem;
+   }
+}
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {}

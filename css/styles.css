@@ -215,5 +215,43 @@ section {
     font-size: 2.4rem;
     line-height: normal;
   }
+  .portfolio-details h2 {
+    font-size: 2rem;
+  }
+  .plans {
+    min-width: unset;
+    padding: 40px;
+  }
+  .plans h2 {
+    font-size: 50px;
+  }
+  section {
+    padding: 3rem 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .portfolio-details h2 {
+    font-size: 2rem;
+  }
+  .plans {
+    min-width: unset;
+    padding: 40px;
+  }
+  .plans h2 {
+    font-size: 50px;
+  }
+  .plans h4 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .plans h2 {
+    font-size: 50px;
+  }
+  .plans h4 {
+    font-size: 1.3rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
