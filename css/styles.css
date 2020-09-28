@@ -13,4 +13,29 @@ html {
 body {
   font-family: 'Titillium Web', sans-serif;
 }
+
+.navbar {
+  background-color: white;
+  -webkit-box-shadow: 0 0.2rem 0.4rem 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0.2rem 0.4rem 0 rgba(0, 0, 0, 0.05);
+  min-height: 12vh;
+}
+
+.nav-link,
+.nav-link:hover {
+  color: #1a1a1a;
+}
+
+.logo-brand {
+  min-width: 160px;
+  max-width: 160px;
+}
+
+.navbar-toggler {
+  font-size: 2.3rem;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
 /*# sourceMappingURL=styles.css.map */
