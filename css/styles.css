@@ -45,6 +45,10 @@ section {
   color: #1a1a1a;
 }
 
+.topmargin-lg {
+  margin-top: 4rem !important;
+}
+
 .navbar {
   background-color: white;
   -webkit-box-shadow: 0 0.2rem 0.4rem 0 rgba(0, 0, 0, 0.05);
