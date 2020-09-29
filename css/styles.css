@@ -258,6 +258,22 @@ section {
   text-align: center;
 }
 
+footer {
+  padding: 50px 0 10px 0;
+  background-color: #070707;
+  text-align: center;
+  color: white;
+}
+
+footer a,
+footer a:hover {
+  color: white;
+}
+
+footer .list-inline-item {
+  padding: 10px 15px;
+}
+
 @media (max-width: 575.98px) {
   h1 {
     font-size: 2.4rem;
@@ -278,6 +294,11 @@ section {
   }
   .carousel-item p {
     font-size: 1.2rem;
+  }
+  footer .menu-link {
+    display: block;
+    padding: 20px 0;
+    font-size: 20px;
   }
 }
 

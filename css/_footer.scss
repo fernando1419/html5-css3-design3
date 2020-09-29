@@ -1,0 +1,16 @@
+footer {
+   padding: 50px 0 10px 0;
+   background-color: $black1;
+   // min-height: 200px;
+   text-align: center;
+   color: $white;
+}
+
+footer a,
+footer a:hover {
+   color: $white;
+}
+
+footer .list-inline-item {
+   padding: 10px 15px;
+}
